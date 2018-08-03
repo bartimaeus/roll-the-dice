@@ -25,3 +25,12 @@ All of the project files are broken down into steps. Each file is numbered based
 ### Visual Studio Code
 
 If you want to save the code locally, then we'll use VS Code. [Download Visual Studio Code](https://code.visualstudio.com/download)
+
+## More JS Please!
+
+After this basic introduction you'll probably want more. There are lots of free resources out there like:
+
+- [Mimo](https://getmimo.com/) - Learn to code on the go!
+- [Codcademy](https://www.codecademy.com/)
+
+I personally like how [Wes Bos](https://wesbos.com/) teaches and the content he offers. I would check out his [ES6 for Everyone](https://es6.io/) course.
