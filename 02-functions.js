@@ -1,7 +1,7 @@
 /*
  * A function is a way for us to create a repeatable
- * behavior. We might have a function for adding two
- * numbers:
+ * behavior or set of instructions. We might have a
+ * function for adding two numbers:
  *
  *    function add(a, b) {
  *      return a + b;
@@ -14,7 +14,7 @@
  *    easily remember and use it later.
  *
  * 3. We pass in parameters or values we want to use in our
- *    repeatable function using parentheses ().
+ *    function using parentheses ().
  *
  * 4. We use curly braces {} to create a wrapper around the
  *    code we want to execute. This is often called a block.
@@ -40,19 +40,19 @@
  *
  * ALTERNATE VERSION:
  *
- * Just like `const` and `let` replaced how we created
- * variables with `var`. There is a new way to create
- * a function called arrow functions. I debated including
- * this, but you might see it and you should know what
- * it looks like.
+ * Just like `const` and `let` have replaced how we create
+ * variables. There is a new way to create a function called
+ * an arrow function. I debated including this, but you might
+ * see it as we move to the next project and you should know
+ * what it looks like.
  *
- * Original, and still valid:
+ * Original function syntax, and still valid:
  *
  *    function add(a, b) {
  *      return a + b
  *    }
  *
- * Can also look like this:
+ * Arrow function syntax:
  *
  *    (a, b) => {
  *        return a + b
@@ -60,8 +60,8 @@
  *
  * We drop the keyword `function` in favor of a simpler syntax
  * where we present the arguments first in parantheses ()
- * followed by and arrow =>. After the arrow we use our curley
- * braces in order to create the block we want to execute.
+ * followed by an arrow =>. After the arrow we use our curley
+ * braces in order to create the block of code we want to execute.
  *
  * If we are able to simply return a value, we can omit
  * the curly braces {} and the keyword `return`:
@@ -103,7 +103,17 @@
  *
  *    Math.random() docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
  *
- * 2. We need whole numbers, so a good thing to do would
+ * 2. We talked about this in person, but I thought it
+ *    would be good to document how we get larger random
+ *    numbers. Getting random numbers between two values
+ *    could be as simple as multiplying the random number
+ *    by the max value you want to get.
+ *
+ *        Math.random() * 10 => 3.486043220218289
+ *        Math.random() * 10 => 9.936195367000686
+ *        Math.random() * 10 => 5.952454254091553
+ *
+ * 3. We need whole numbers, so a good thing to do would
  *    be to round any numbers you get to a whole number.
  *    Math.round() is another built in JavaScript
  *    function that takes a number and will return the
@@ -115,10 +125,10 @@
  *
  *    Math.round docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round
  *
- * 3. Make sure that all of your rolls are between 1-6.
- *    You may find that are of your rolls consistently return
- *    between 0-5. Think about a way to increase this range
- *    so that 1-6 are returned from roll instead of 0-5.
+ * 4. Make sure that all of your rolls are between 1-6.
+ *    You may find that your rolls return 0-5 or 0-6.
+ *    Think of a way to increase this range so that
+ *    1-6 are returned from roll() instead of 0-5.
  */
 function roll() {
   // TODO: Do something...

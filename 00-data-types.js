@@ -39,3 +39,29 @@ undefined;
 // typeof true      => "boolean"
 // typeof null      => "object"
 // typeof undefined => "undefined"
+
+/*
+ * COMMENTS!
+ */
+// Not realated to primitives, but nice to know are JavaScript comments.
+// Comments allow us to add descriptions, notes, or instructions
+// about the code we write.
+
+// The browser or JavaScript interpreter will ignore our comments.
+
+/* Single line comment */
+// You'll see that I am using a lot of comments in these files.
+// You can use the traditional single line comments by adding two
+// forward slashes // before the comment you make.
+
+/* Single line comment after code */
+5 + 4; // Don't execute this comment. Just making a quick note.
+
+// Multi-line comments use /* */ to wrap your comment
+/*
+  Here is a multiline comment.
+  You don't have to worry about adding // at the beginning
+  of every line.
+
+  Here we go again...
+ */

@@ -1,6 +1,6 @@
 /*
  * Variables in Javascript are a way to store a value for later use.
- * Variables can store any type of primitive and other objects,
+ * Variables can store any type of primitive as well as other objects,
  * functions, and structures we'll learn about later.
  *
  * In the past, variables were created using the keyword `var`:
@@ -9,16 +9,16 @@
  *
  * Using the keyword `var` we can create a varialbe and change
  * the value any time we like. Because this leads to possible
- * issues with overwriting values you don't want to change the
- * JavaScript standard has changed by adding two new keywords
- * that can create variables `let` and `const`.
+ * issues with overwriting values the JavaScript standard has
+ * changed by adding two new keywords that can create variables
+ * `let` and `const`.
  *
  * let name = 'Eric';
  * const given = 'Shelley';
  *
  * The difference between `let` and `const` is the desire to change
  * a variable later on. `const` makes the variable a constant and
- * will throw and error if you try to change it's value:
+ * will throw and error if you try reassign it:
  *
  * const name = 'Eric';
  * name = 'It\'s me again'; =>  TypeError: Assignment of constant variable
